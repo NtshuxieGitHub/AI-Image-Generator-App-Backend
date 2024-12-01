@@ -8,7 +8,7 @@ import dalleRoutes from "./routes/dalleRoutes.js";
 
 dotenv.config();
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://aiimagegen.ncmatpro.com",
   methods: ["GET", "POST"],
 };
 
